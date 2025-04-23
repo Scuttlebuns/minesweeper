@@ -1,0 +1,66 @@
+<!-- File path: Minesweeper/html/leaderboard.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Leaderboard</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/leaderboard.css">
+  <script src="../js/loadComponents.js" defer></script>
+  <script src="../js/leaderboard.js" defer></script>
+</head>
+<body>
+  <!-- Header Placeholder -->
+  <div id="header"></div>
+
+  <main>
+    <section class="leaderboard-container">
+      <h1>Leaderboard</h1>
+      <label for="sort-dropdown">Sort By:</label>
+      <select id="sort-dropdown">
+        <option value="total_wins-DESC">Most Wins</option>
+        <option value="total_wins-ASC">Fewest Wins</option>
+        <option value="total_games-DESC">Most Games Played</option>
+        <option value="total_games-ASC">Fewest Games Played</option>
+        <option value="total_time-DESC">Longest Total Time</option>
+        <option value="total_time-ASC">Shortest Total Time</option>
+      </select>
+
+      <table id="leaderboard-table">
+        <thead>
+          <tr>
+            <th>Rank</th>
+            <th>Player</th>
+            <th>Total Wins</th>
+            <th>Total Games</th>
+            <th>Total Time (s)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Leaderboard data will be dynamically populated -->
+        </tbody>
+      </table>
+    </section>
+
+    <section class="personal-games-container">
+      <h2>Your Game History</h2>
+      <table id="personal-games-table">
+        <thead>
+          <tr>
+            <th>Result</th>
+            <th>Duration (s)</th>
+            <th>Turns</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Personal game history will be dynamically populated -->
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <!-- Footer Placeholder -->
+  <div id="footer"></div>
+</body>
+</html>

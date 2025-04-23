@@ -1,0 +1,29 @@
+/* File path: Minesweeper/css/leaderboard.css */
+
+.leaderboard-container, .personal-games-container {
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+#leaderboard-table, #personal-games-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+#leaderboard-table th, #personal-games-table th,
+#leaderboard-table td, #personal-games-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+#leaderboard-table th, #personal-games-table th {
+  background-color: #990000;
+  color: white;
+}
+
+#leaderboard-table tr:nth-child(even),
+#personal-games-table tr:nth-child(even) {
+  background-color: #f3f3f3;
+}

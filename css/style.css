@@ -1,0 +1,178 @@
+/* File path: Minesweeper/css/style.css */
+
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Navigation Bar */
+.navbar {
+  background-color: #990000;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.navbar img {
+  height: 50px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  align-items: center; /* Ensure vertical alignment of all items */
+}
+
+.navbar ul li {
+  display: inline-flex; 
+  align-items: center; /* Helps keep items aligned vertically */
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #f3f3f3;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.hero h1 {
+  color: #990000;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #990000;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+}
+
+.cta-button:hover {
+  background-color: #750000;
+}
+
+/* Footer */
+footer {
+  background-color: #990000;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Dropdown styling */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.dropdown > span {
+  display: inline-block;
+  background-color: #fff;    /* White background */
+  color: #990000;            /* Red text */
+  border: 1px solid #990000; /* Red border */
+  border-radius: 5px;
+  padding: 4px 8px;          /* Slight padding */
+  vertical-align: middle;    /* Aligns with other nav items */
+}
+
+/* Dropdown content: red background, white text, slightly rounded */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #990000; /* Red background */
+  min-width: 100px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 5px; /* Slight rounding for the dropdown container */
+}
+
+.dropdown-content a {
+  color: white; /* White text */
+  padding: 8px 12px;
+  text-decoration: none;
+  display: block; /* Full width clickable area */
+  border-radius: 5px; /* Ensure the button itself is rounded */
+}
+
+.dropdown-content a:hover {
+  background-color: #750000; /* Darker red on hover */
+  border-radius: 5px; /* Maintain rounded corners on hover */
+}
+
+/* Show dropdown content on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Help Content */
+.content {
+  max-width: 800px; /* Restrict content width for readability */
+  margin: 20px auto; /* Center align the content */
+  padding: 20px; /* Add padding inside the content */
+  background-color: #f9f9f9; /* Slightly distinct background */
+  border: 1px solid #ddd; /* Subtle border */
+  border-radius: 5px; /* Slight rounding */
+}
+
+.content h1 {
+  color: #990000;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.content h2 {
+  margin-top: 20px;
+  color: #333;
+}
+
+.content p,
+.content ul,
+.content ol {
+  margin-bottom: 15px;
+}
+
+.content ul,
+.content ol {
+  margin-left: 20px;
+}
+
+.content ul li,
+.content ol li {
+  margin-bottom: 10px;
+}
+
+.content ul li ul,
+.content ol li ul {
+  margin-left: 20px;
+  list-style-type: circle;
+}

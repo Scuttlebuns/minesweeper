@@ -1,0 +1,55 @@
+<!-- File path: Minesweeper/html/game.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Minesweeper Game</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/game.css">
+</head>
+<body>
+  <!-- Header Placeholder -->
+  <div id="header"></div>
+
+  <!-- Main Content -->
+  <main>
+    <section class="game-header">
+      <h1>Minesweeper</h1>
+      <div class="game-info">
+        <span id="timer">Time: 0</span>
+        <span id="mines-left">Mines Left: 0</span>
+      </div>
+      <div class="game-controls">
+        <button id="new-game-button">New Game</button>
+        <button id="restart-game-button">Restart</button>
+        <button id="toggle-mines-button">Show Mines</button>
+      </div>
+    </section>
+
+    <section class="difficulty">
+      <h2>Select Difficulty</h2>
+      <div class="difficulty-buttons">
+        <button id="easy-button">Easy</button>
+        <button id="medium-button">Medium</button>
+        <button id="hard-button">Hard</button>
+      </div>
+    </section>
+    
+    <section class="game-grid">
+      <table id="minesweeper-grid"></table>
+    </section>
+    
+    <!-- Renamed buttons -->
+    <section class="grid-style-controls">
+      <button id="change-grid-button">Change Theme</button>
+      <button id="reset-grid-style-button">Reset Theme</button>
+    </section>
+  </main>
+
+  <!-- Footer Placeholder -->
+  <div id="footer"></div>
+
+  <script src="../js/loadComponents.js"></script>
+  <script src="../js/game.js"></script>
+</body>
+</html>
