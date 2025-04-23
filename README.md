@@ -14,7 +14,8 @@
 
 ## Installation Steps
 
-1. **Download the Project**: clone the repo from github `git clone https://github.com/Scuttlebuns/minesweeper.git`
+1. **Download the Project**: clone the repo from github
+   `git clone https://github.com/Scuttlebuns/minesweeper.git`
 
 2. **Place in `htdocs`**: Move the entire Minesweeper folder into the `htdocs` directory of your XAMPP installation.
    - **Windows**: `C:/Xampp/htdocs/minesweeper`
