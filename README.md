@@ -14,20 +14,18 @@
 
 ## Installation Steps
 
-1. **Download the Project**: Obtain the Minesweeper project ZIP file.
+1. **Download the Project**: clone the repo from github `git clone https://github.com/Scuttlebuns/minesweeper.git`
 
-2. **Unzip the Project**: Extract the contents of the ZIP file.
-
-3. **Place in `htdocs`**: Move the entire Minesweeper folder into the `htdocs` directory of your XAMPP installation.
+2. **Place in `htdocs`**: Move the entire Minesweeper folder into the `htdocs` directory of your XAMPP installation.
    - **Windows**: `C:/Xampp/htdocs/minesweeper`
    - **Linux**: `/opt/lampp/htdocs/minesweeper`
    - **macOS**: `Applications/XAMPP/htdocs/minesweeper`
 
-4. **Start XAMPP Services**:
+3. **Start XAMPP Services**:
    - Open the XAMPP Control Panel.
    - Click **Start** next to Apache and MySQL.
 
-5. **Setup the Database**:
+4. **Setup the Database**:
    - Open your browser and go to: `http://localhost/Minesweeper/php/setup_database.php`
    - This script will create the `minesweeper` database and required tables if they don’t exist.
    - If additional database settings are needed, navigate to `http://localhost/phpmyadmin/`
