@@ -53,6 +53,7 @@ Once the database is set up, navigate to the homepage:
 ---
 
 ## Project Hierarchy
+```text
 Minesweeper/
 ├── Audio/
 │   ├── background.mp3          # Background music for the game
@@ -98,3 +99,4 @@ Minesweeper/
 ├── readme.txt                  # Instructions for setting up and running the project
 ├── project_log.txt             # Record of weekly work and contributions
 └── project_guidlines           # Instructions and requirements for the project
+```
