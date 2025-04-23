@@ -77,7 +77,7 @@ Minesweeper/
 │   └── signup.html             # Registration page
 │
 ├── IMAGES/
-│   ├── fresnostate_logo.png    # Fresno State logo used in the header
+│   ├── logo.png                # Logo used in the header
 │   └── profile_picture.jpg     # Profile picture for the Contact page
 │
 ├── JS/
@@ -96,7 +96,5 @@ Minesweeper/
 │   ├── save_game_results.php   # Save game results to the database
 │   └── setup_database.php      # Create database and tables if not existing
 │
-├── readme.txt                  # Instructions for setting up and running the project
-├── project_log.txt             # Record of weekly work and contributions
-└── project_guidlines           # Instructions and requirements for the project
+└── readme.md                   # Instructions for setting up and running the project
 ```
